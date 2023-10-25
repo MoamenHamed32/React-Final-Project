@@ -1,0 +1,19 @@
+.per_overview {
+  color: #000000;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.7rem;
+  height: 50.38px;
+}
+.celeb-card .movie-title,
+.celeb-card .celeb-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.celeb-card img {
+  min-height: 460px;
+  max-height: 460px;
+}

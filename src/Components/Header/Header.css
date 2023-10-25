@@ -1,0 +1,40 @@
+nav {
+  background-color: #fff !important;
+}
+nav figure {
+  width: 135px;
+  margin: 0;
+}
+.side-logo {
+  width: 80%;
+  margin: 0 auto;
+}
+nav svg {
+  color: #000;
+}
+nav .nav-link-cus {
+  padding: 0.6rem;
+  text-decoration: none;
+  color: #29292996;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: 0.3s ease-in-out;
+}
+nav .nav-link-cus.active {
+  color: #000 !important;
+}
+.side-link {
+  padding: 0.7rem;
+  text-decoration: none;
+  color: #29292996;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+.side-link.active {
+  color: #000 !important;
+}
+
+.tool-bar {
+  padding: 0 !important;
+}

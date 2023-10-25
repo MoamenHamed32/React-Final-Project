@@ -1,0 +1,31 @@
+.movie-card {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+.movie-card .movie-rate {
+  position: absolute;
+  right: 0px;
+  top: 27px;
+  padding: 8px;
+  color: #fff;
+  background-color: #0d88aa;
+  border-radius: 2px;
+}
+
+.movie-card .movie-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 513px;
+}
+.movie-card .movie-img img {
+  min-height: 100%;
+}
+
+.movie-card .movie-title {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 800;
+  margin: 1rem 0;
+}

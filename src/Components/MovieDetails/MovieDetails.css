@@ -1,0 +1,131 @@
+#movie-details .backdrop {
+  position: relative;
+}
+#movie-details .backdrop .backdrop-img {
+  height: 100%;
+}
+#movie-details .backdrop::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 47, 47, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.movie-info {
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
+
+.movie-info .movie-img {
+  width: 25%;
+  min-width: 25%;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.movie-info .movie-body {
+  width: 70%;
+  padding: 2rem 0;
+  color: #fff;
+  z-index: 2;
+}
+
+.movie-info .movie-body .release-year {
+  font-size: 1rem;
+}
+.movie-body .movie-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.movie-body .movie-desc {
+  font-size: 0.7rem;
+  height: 50.38px;
+  color: #ffffff89;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.movie-body .movie-actions .trailer .trailer-text {
+  font-size: 0.53rem;
+  letter-spacing: 1px;
+}
+
+.movie-body .movie-actions .trailer svg {
+  font-size: 2rem;
+  color: #ffffffb3;
+}
+.movie-actions .more {
+  color: #ffffffba;
+  font-size: 0.7rem;
+}
+
+.more-details .rate {
+  padding-right: 1rem;
+  border-right: 1.5px solid #6868687d;
+}
+.more-details .rate h2 {
+  color: #000;
+  font-weight: 700;
+  margin: 0;
+  line-height: 26px;
+}
+
+.more-details .rate span {
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-left: 0.3rem;
+}
+
+.more-details .status span {
+  font-size: 0.7rem;
+  color: #38383898;
+}
+.more-details .status h5 {
+  margin: 0;
+  color: #000;
+}
+
+.more-details .right .add {
+  width: 35px;
+  height: 30px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.more-details .right .favorite {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 860px) {
+  .movie-info .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .movie-body {
+    color: #000 !important;
+  }
+  .movie-body .movie-desc {
+    color: #262626a7;
+  }
+  .movie-actions span {
+    color: #000 !important;
+  }
+  .movie-body .movie-actions .trailer svg {
+    color: #000;
+  }
+}
