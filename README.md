@@ -1,7 +1,7 @@
-#Frontend Developer Task - Trending Movies, TV Shows, and People
+# Frontend Developer Task - Trending Movies, TV Shows, and People
 This is a frontend developer task for ITI, where you are required to build a web application that displays information about trending movies, TV shows, and people. You will use HTML, CSS, JavaScript, and React to fetch data from an API and present it in an organized manner. The application should also include searching and filtering functionality.
 
-#Description
+# Description
 Build an application about “Trending Movies, TV shows, and people”. You have received a simple design and an API that returns a JSON array. The main objectives are:
 
 Fetch data from the API: Use the TMDb API to retrieve daily trending lists of movies, TV shows, and people.
@@ -14,7 +14,7 @@ Details Page: For each item, use the TMDb details API to display more informatio
 
 Image URLs: The base URL for "poster_path" images is "https://image.tmdb.org/t/p/w500/," and for "backdrop_path" images, it is "https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/."
 
-#Functionality
+# Functionality
 Fetch trending data from TMDb API.
 Filter the data locally by media type ("movie," "tv," "person").
 Implement server-side searching using the TMDb search API.
@@ -32,7 +32,7 @@ Create React App: Start your project with Create React App to set up the initial
 React Router: Implement "client-side routing" using React Router.
 Material UI (MUI): Use Material UI for UI components to speed up development.
 Unit Testing: Include unit tests for your components.
-#How to Submit
+# How to Submit
 Complete the assignment by implementing the functionality and following the development instructions.
 Push your local working copy to your GitHub repository.
 Include a README file that describes your application and provides instructions on how to run it.
