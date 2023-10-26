@@ -139,11 +139,7 @@ export default function Home() {
             spacing={2}
             alignItems="center"
           >
-            <Pagination
-              count={data?.total_pages || 1}
-              page={page}
-              onChange={handleChange}
-            />
+            <Pagination count={500} page={page} onChange={handleChange} />
           </Stack>
         </div>
       </div>

@@ -65,11 +65,7 @@ export default function Movies() {
           <div className="row">{tvList}</div>
         </Loading>
         <Stack container="true" spacing={2} alignItems="center">
-          <Pagination
-            count={data?.total_pages || 1}
-            page={page}
-            onChange={handleChange}
-          />
+          <Pagination count={50} page={page} onChange={handleChange} />
         </Stack>
       </div>
     </section>
