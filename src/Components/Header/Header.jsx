@@ -34,10 +34,12 @@ export default function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        <figure className="side-logo">
-          <img src="logo.svg" alt="" />
-        </figure>
+      <Typography>
+        <NavLink to="/" variant="h6" sx={{ my: 2 }}>
+          <figure className="side-logo mt-3">
+            <img src="logo.svg" alt="" />
+          </figure>
+        </NavLink>
       </Typography>
       <Divider />
       <List>
@@ -77,14 +79,17 @@ export default function DrawerAppBar(props) {
             >
               <MenuIcon />
             </IconButton>
+
             <Typography
               variant="h6"
               component="div"
               sx={{ flexGrow: 1, display: { xs: "block", sm: "block" } }}
             >
-              <figure className="logo">
-                <img src="/logo.svg" alt="" />
-              </figure>
+              <NavLink to="/">
+                <figure className="logo">
+                  <img src="/logo.svg" alt="" />
+                </figure>
+              </NavLink>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "flex" } }}>
               {navItems.map((item) => (
